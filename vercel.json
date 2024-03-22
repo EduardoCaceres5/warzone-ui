@@ -1,7 +1,4 @@
 {
-  "version": 2,
-  "build": {
-    "command": "vite build",
-    "outputDir": "dist"
-  }
+  "buildCommand": "vite build",
+  "outputDirectory": "dist"
 }
