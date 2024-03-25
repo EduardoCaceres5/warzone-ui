@@ -8,22 +8,22 @@ import { BiFullscreen } from "react-icons/bi";
 import { AiFillSetting, AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 const Slide = () => {
-  const { users } = useSelector((state) => state.user);
+  const { streamers } = useSelector((state) => state.streamer);
   return (
     <StyledSlide>
       <div className="slide">
         <div className="three">
-          <img src={users[7].liveScreen} />
-          <img src={users[2].liveScreen} />
-          <img src={users[6].liveScreen} />
+          <img src={streamers[1].liveScreen} />
+          <img src={streamers[3].liveScreen} />
+          <img src={streamers[5].liveScreen} />
 
           <div className="two">
-            <img src={users[4].liveScreen} />
-            <img src={users[5].liveScreen} />
+            <img src={streamers[2].liveScreen} />
+            <img src={streamers[4].liveScreen} />
 
             <div className="one">
               <div className="img">
-                <img src={users[1].liveScreen} />
+                <img src={streamers[0].liveScreen} />
                 <div className="screen-icons">
                   <div className="left">
                     <GiPauseButton className="icon-screen" />
@@ -43,12 +43,14 @@ const Slide = () => {
                 <div className="info-top">
                   <div className="profile">
                     <div className="pp">
-                      <img src="https://i.pravatar.cc/50" />
+                      <img src={streamers[0].logo} />
                     </div>
                     <div className="profile-info">
-                      <div className="username">JonSnow</div>
-                      <div className="game">Dota 2</div>
-                      <div className="viewers">297 viewers</div>
+                      <div className="username">{streamers[0].username}</div>
+                      <div className="game">{streamers[0].game}</div>
+                      <div className="viewers">
+                        {streamers[0].viewers} viewers
+                      </div>
                     </div>
                   </div>
                   <div className="tags">

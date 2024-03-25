@@ -83,17 +83,17 @@ const Home = () => {
         <div className="home-desktop">
           <div className="home-box">
             <Slide />
-            <ChannelsDesktop channelTitle="Live channels we think you’ll like" />
-            <ShowMore title="Show more" />
-            <CategoriesDesktop
+            {/* <ChannelsDesktop channelTitle="Live channels we think you’ll like" /> */}
+            {/* <ShowMore title="Show more" /> */}
+            {/* <CategoriesDesktop
               title="we think you’ll like"
               boldTitle="Categories"
-            />
+            /> */}
             <ShowMore />
             <Tags />
             <ChannelsDesktop channelTitle="Recommended smaller communities" />
             <ShowMore title="Show more" />
-            <ChannelsDesktop channelTitle="All aboard the Hype Train!" />
+            {/* <ChannelsDesktop channelTitle="All aboard the Hype Train!" />
             <ShowMore title="Show more" />
             <ChannelsDesktop channelTitle="Women's History Month" />
             <ShowMore title="Show more" />
@@ -101,7 +101,7 @@ const Home = () => {
             <ShowMore title="Show more" />
             <ChannelsDesktop channelTitle="All aboard the Hype Train!" />
             <ShowMore title="Show more" />
-            <ChannelsDesktop channelTitle="Women's History Month" />
+            <ChannelsDesktop channelTitle="Women's History Month" /> */}
           </div>
         </div>
       </StyledHome>

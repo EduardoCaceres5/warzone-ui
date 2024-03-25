@@ -3,8 +3,8 @@ import { createSlice } from "@reduxjs/toolkit";
 export const site = createSlice({
   name: "site",
   initialState: {
-    darkStatus: false,
-    sideBarStatus: false,
+    darkStatus: true,
+    sideBarStatus: true,
   },
   reducers: {
     setDarkMode: (state) => {

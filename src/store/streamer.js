@@ -1,0 +1,85 @@
+import { createSlice } from "@reduxjs/toolkit";
+
+export const streamer = createSlice({
+  name: "streamer",
+  initialState: {
+    streamers: [
+      {
+        username: "itzBerty",
+        logo: "./images/streamers/itzberty/logo.png",
+        title: "Im back",
+        game: "Call of Duty: Warzone",
+        tag: "Turkish",
+        pp: "https://i.pravatar.cc/",
+        liveScreen: "./images/streamers/itzberty/miniatura_1.jpg",
+        viewers: "28.5k",
+      },
+      {
+        username: "Soprano",
+        logo: "./images/streamers/itzberty/logo.png",
+        title: "Im back",
+        game: "Dota 2",
+        tag: "Turkish",
+        pp: "https://i.pravatar.cc/",
+        liveScreen: "./images/streamers/itzberty/miniatura_2.jpg",
+        viewers: "395",
+      },
+      {
+        username: "Seinfeld",
+        title: "Reduce Ping & Avoid Lags",
+        game: "PUBG",
+        tag: "English",
+        pp: "https://i.pravatar.cc/",
+        liveScreen: "./images/streamers/itzberty/miniatura_3.jpg",
+        viewers: "5.4K",
+      },
+      {
+        username: "Darlene",
+        title: "FPS soon? OMEGALUL",
+        game: "Counter Strike",
+        tag: "English",
+        pp: "https://i.pravatar.cc/",
+        liveScreen: "./images/streamers/itzberty/miniatura_4.jpg",
+        viewers: "117",
+      },
+      {
+        username: "Cersei",
+        title: "Live Bitcoin Trading Infos 24/7",
+        game: "Crypto",
+        tag: "Chatting",
+        pp: "https://i.pravatar.cc/",
+        liveScreen: "./images/streamers/itzberty/miniatura_5.jpg",
+        viewers: "88",
+      },
+      {
+        username: "CosmoKramer",
+        title: "Rapid Chess Championship!",
+        game: "Chess",
+        tag: "Chatting",
+        pp: "https://i.pravatar.cc/",
+        liveScreen: "./images/streamers/itzberty/miniatura_6.jpg",
+        viewers: "17.1K",
+      },
+      {
+        username: "Soprano",
+        title: "Im back",
+        game: "Dota 2",
+        tag: "Turkish",
+        pp: "https://i.pravatar.cc/",
+        liveScreen: "./images/streamers/itzberty/miniatura_2.jpg",
+        viewers: "395",
+      },
+      {
+        username: "Seinfeld",
+        title: "Reduce Ping & Avoid Lags",
+        game: "PUBG",
+        tag: "English",
+        pp: "https://i.pravatar.cc/",
+        liveScreen: "./images/streamers/itzberty/miniatura_3.jpg",
+        viewers: "5.4K",
+      },
+    ],
+  },
+});
+
+export default streamer.reducer;

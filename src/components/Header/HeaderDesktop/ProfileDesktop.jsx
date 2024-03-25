@@ -19,7 +19,7 @@ import DarkAndStatus from "./DarkAndStatus";
 
 const ProfileDesktop = () => {
   const [profileStatus, setProfileStatus] = useState(false);
-  const [onlineStatus, setOnlineStatus] = useState(false);
+  const [onlineStatus, setOnlineStatus] = useState(true);
 
   const changeStatus = () => {
     return setOnlineStatus(!onlineStatus);
@@ -55,7 +55,7 @@ const ProfileDesktop = () => {
               </div>
             </div>
 
-            <div className="status-button">
+            {/* <div className="status-button">
               <span>Online</span>
               <DarkAndStatus whichStatus="online" changeStatus={changeStatus} />
             </div>
@@ -135,7 +135,7 @@ const ProfileDesktop = () => {
                   </div>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
